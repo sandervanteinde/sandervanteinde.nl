@@ -1,0 +1,25 @@
+.background-ball-container {
+  position: fixed;
+}
+
+.background-ball {
+  background-color: #53125C;
+  border-radius: 100%;
+  filter: blur(50px);
+  opacity: 40%;
+  position: relative;
+
+  animation: moveTop 10s infinite ease-in-out;
+}
+
+@keyframes moveTop {
+  0% {
+    top: -10px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: -10px;
+  }
+}
